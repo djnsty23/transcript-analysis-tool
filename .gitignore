@@ -1,0 +1,28 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Local configuration
+.env.local
+
+# Output files
+corrected_transcripts/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding utf8
